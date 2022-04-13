@@ -53,11 +53,16 @@ h1{
     font-size: 2.5rem;
 }
 section{
-    margin-top: 8rem;
+    margin-top: 2rem;
+    height: fit-content;
 }
 section > h2, section > h5 {
     text-align: center;
-    color: var(--color-light);
+    color: var(--color-white);
+}
+section > h2{
+    color: var(--color-primary);
+    margin: 0 auto;
 }
 section > h3{
     color: var(--color-primary);
